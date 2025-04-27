@@ -49,13 +49,13 @@ namespace TaskApp
         {
             
         }
-        t
+        
         private void DeleteTaskLog_Click(object sender, RoutedEventArgs e)
         {
             int selectedIndex = TaskComboBox.SelectedIndex;
             var dataFiles = Directory.GetDirectories(solutionDataPath);
 
-            Debug.WriteLine(Path.GetFileName(dataFiles[selectedIndex]));
+            Debug.WriteLine(dataFiles[selectedIndex]);
         }
 
         private void CreateTaskLog_Click(object sender, RoutedEventArgs e)
