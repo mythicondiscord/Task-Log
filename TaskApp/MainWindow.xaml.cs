@@ -49,7 +49,7 @@ namespace TaskApp
         {
             
         }
-
+        t
         private void DeleteTaskLog_Click(object sender, RoutedEventArgs e)
         {
             int selectedIndex = TaskComboBox.SelectedIndex;
