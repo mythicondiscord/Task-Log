@@ -39,7 +39,7 @@ namespace TaskApp
                 }
              }
         }
-
+        
         public void OpenTaskWindow(string taskName)
         {
 
