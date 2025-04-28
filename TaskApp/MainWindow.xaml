@@ -71,7 +71,7 @@
                 Task Log
             </TextBlock>
             <TextBlock Grid.Column="1" FontSize="15" FontFamily="Yu Gothic" VerticalAlignment="Top" TextAlignment="Right" Foreground="LightGray">
-                v0.1
+                v1.0.3
             </TextBlock>
         </Grid>
     </Grid>
